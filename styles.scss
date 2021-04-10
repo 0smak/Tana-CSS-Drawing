@@ -154,12 +154,14 @@ $radius: 25px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		-webkit-appearance: none;
 		font-size: 1rem;
 		color: #333;
 		cursor: pointer;
 		&:active {
 			transform: translate(-50%, -50%) scale(0.98);
 			box-shadow: 0 0 3px 0px #0000006e;
+			-webkit-appearance: none;
 		}
 	}
 	&__button-text {
@@ -178,7 +180,9 @@ $radius: 25px;
 		position: relative;
 		outline: none;
 		transition: transform 0.2s ease-in-out;
+		-webkit-appearance: none;
 		&:active {
+			-webkit-appearance: none;
 			transform: scale(0.95);
 		}
 		&--tare,
