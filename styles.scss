@@ -138,6 +138,8 @@ $radius: 25px;
 		}
 	}
 	&__button-on-off {
+		-webkit-appearance: none;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 		transition: transform 0.2s ease-in, box-shadow 0.2s ease-in;
 		outline: none;
 		width: 35%;
@@ -154,14 +156,14 @@ $radius: 25px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		-webkit-appearance: none;
 		font-size: 1rem;
 		color: #333;
 		cursor: pointer;
 		&:active {
+			-webkit-appearance: none;
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 			transform: translate(-50%, -50%) scale(0.98);
 			box-shadow: 0 0 3px 0px #0000006e;
-			-webkit-appearance: none;
 		}
 	}
 	&__button-text {
@@ -182,9 +184,11 @@ $radius: 25px;
 		outline: none;
 		transition: transform 0.2s ease-in-out;
 		-webkit-appearance: none;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 		padding: 0;
 		&:active {
 			-webkit-appearance: none;
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 			transform: scale(0.95);
 		}
 		&--tare,

@@ -34,6 +34,8 @@ const light_btn = document.querySelector('#light');
 const display = document.querySelector('#screen');
 on_off.addEventListener('click', turnOnOff, null);
 light_btn.addEventListener('click', turnLight, null);
+document.addEventListener("touchstart", function () { }, false);
+
 
 window.onload = () => {
     document.body.classList.remove('preload');
